@@ -99,6 +99,11 @@ namespace WebServiceStudio
             }
         }
 
+        /// <summary>
+        /// 获取asmx服务事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void buttonGet_Click(object sender, EventArgs e)
         {
             if (buttonGet.Text == "Get")
